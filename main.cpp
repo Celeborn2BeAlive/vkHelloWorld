@@ -10,6 +10,7 @@ int main(int argc, char ** argv)
     appInfo.applicationVersion = 1;
     appInfo.apiVersion = VK_MAKE_VERSION(1, 0, 0);
 
+  
     VkInstanceCreateInfo ici = {};
     ici.sType = VK_STRUCTURE_TYPE_INSTANCE_CREATE_INFO;
     ici.pApplicationInfo = &appInfo;
